@@ -10,13 +10,39 @@ const score1Element = document.getElementById('score--1');
 const diceImage = document.querySelector('.dice');
 // selection d'un element par sa classe HTML
 
-const btnNew = document.querySelector('btn--new');
-const btnRoll = document.querySelector('btn--roll');
-const btnHold = document.querySelector('btn--hold');
+let current0El = document.getElementById('current--0');
+let current1El = document.getElementById(' current--1');
+const btnNew = document.querySelector('.btn--new');
+const btnRoll = document.querySelector('.btn--roll');
+const btnHold = document.querySelector('.btn--hold');
 
 //Starting conditions
 score0Element.textContent = 0;
 score1Element.textContent = 0;
 diceImage.classList.add('hidden');
 
+const scores = [0, 0]; //scores totaux - !currentScore
+let currentScore = 0;
+let activePlayer = 0;
+
 //Rolling dice functionality
+btnRoll.addEventListener('click', function () {
+    console.log('Clicked!');
+
+    const dice = Math.trunc(Math.random() * 6) + 1;
+    diceImage.classList.remove('hidden');
+    diceImage.src = `dice-${dice}.png`;
+
+    if (dice !== 1) {
+        currentScore = currentScore + dice;
+        current0El.textContent = currentScore;
+    } else {
+
+
+    }
+
+
+
+});
+
+

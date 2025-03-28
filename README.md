@@ -8,10 +8,10 @@ Dans ce jeu, deux joueurs s'affrontent en lançant un dé. Le premier à atteind
 
 ## 🕹️ Règles du jeu
 
-1. **Lancer le dé** : Clique sur le bouton **"RLancer le dé"**.
+1. **Lancer le dé** : Clique sur le bouton **"Lancer le dé"**.
 2. **Ajouter au score actuel** : Chaque lancer ajoute des points à ta manche — *sauf si tu fais un 1*.
 3. **Conserver les points** : Clique sur **"Conserver"** pour ajouter ton score actuel au score total et passer au joueur suivant.
-4. **Premier à 100 gagne** : Le premier joueur à atteindre 100 points gagne la partie !
+4. Le premier joueur à atteindre 100 points gagne la partie !
 
 ---
 
@@ -26,9 +26,8 @@ Dans ce jeu, deux joueurs s'affrontent en lançant un dé. Le premier à atteind
 ## 🚀 Démo en ligne
 
 > 🔗 [Jouer au jeu](https://your-username.github.io/javascript_pig_game/)  
-(*À venir — tu peux publier le jeu avec GitHub Pages !*)
+
 
 ---
 
-## 📂 Structure du projet
 
